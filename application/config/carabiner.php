@@ -14,7 +14,7 @@
 |
 */
 
-$config['script_dir'] = 'assets/scripts/';
+$config['script_dir'] = 'public/js/';
 
 
 /*
@@ -26,7 +26,7 @@ $config['script_dir'] = 'assets/scripts/';
 |
 */
 
-$config['style_dir'] = 'assets/styles/';
+$config['style_dir'] = 'public/css/';
 
 /*
 |--------------------------------------------------------------------------
@@ -38,7 +38,7 @@ $config['style_dir'] = 'assets/styles/';
 |
 */
 
-$config['cache_dir'] = 'assets/cache/';
+$config['cache_dir'] = 'public/cache/';
 
 
 
@@ -72,7 +72,7 @@ $config['cache_dir'] = 'assets/cache/';
 |
 */
 
-$config['dev'] = FALSE;
+$config['dev'] = TRUE;
 
 
 /*
@@ -322,4 +322,3 @@ $config['groups']['yui'] = array(
 	)
 
 );
-
